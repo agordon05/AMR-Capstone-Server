@@ -45,10 +45,10 @@ public class Robot {
     // image or video from robot's camera
     // object type need to be changed
     @NotEmpty
-    private Byte[] image = null;
+    private byte[] image = null;
 
     public Robot(int id, String status, String message, float x_pos, float y_pos, float rotation,
-            float x_destination, float y_destination, String qrScan, ArrayList<String> logger, Byte[] image) {
+            float x_destination, float y_destination, String qrScan, ArrayList<String> logger, byte[] image) {
         this.id = id;
         this.status = status;
         this.message = message;
@@ -131,7 +131,7 @@ public class Robot {
     }
 
     @JsonProperty("image")
-    public Byte[] getImage() {
+    public byte[] getImage() {
         return image;
     }
 
@@ -192,7 +192,7 @@ public class Robot {
         // this.loggerList.addAll(logger);
     }
 
-    public void setImage(Byte[] image) {
+    public void setImage(byte[] image) {
         if (image == null)
             return;
         this.image = image;
