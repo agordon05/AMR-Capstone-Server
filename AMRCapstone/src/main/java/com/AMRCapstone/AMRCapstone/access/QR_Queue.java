@@ -15,6 +15,7 @@ public class QR_Queue {
     // initializes the array list and loads 5 queues into the queue list
     public static void initialize() {
         queue = new ArrayList<QR>(sizeOfQueue);
+        addToQueue();
     }
 
     // public static void initialize(String code) {
