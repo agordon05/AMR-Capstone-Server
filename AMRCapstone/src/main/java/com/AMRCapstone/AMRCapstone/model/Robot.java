@@ -182,10 +182,14 @@ public class Robot {
         this.loggerList.add(action);
     }
 
-    public void addtoLoggerList(ArrayList<String> loggerList) {
-        if (loggerList == null)
+    public void addtoLoggerList(ArrayList<String> logger) {
+        if (logger == null)
             return;
-        this.loggerList.addAll(loggerList);
+        // int index = this.loggerList.size();
+        for (int index = this.loggerList.size(); index < logger.size(); index++) {
+            this.loggerList.add(logger.get(index));
+        }
+        // this.loggerList.addAll(logger);
     }
 
     public void setImage(Byte[] image) {
