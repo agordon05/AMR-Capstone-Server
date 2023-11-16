@@ -160,7 +160,11 @@ public class QRAccess {
                 continue;
 
             // If x and y coordinates of QR are 1 away, add to list
-            else if (Math.abs(x_pos - x) <= 1 && Math.abs(y_pos - y) <= 1) {
+            else if (Math.abs(x_pos - x) <= 1 && (y_pos - y) == 0) {
+                list.add(qr);
+            }
+            // If x and y coordinates of QR are 1 away, add to list
+            else if ((x_pos - x) == 0 && Math.abs(y_pos - y) <= 1) {
                 list.add(qr);
             }
         }
