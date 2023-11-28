@@ -11,9 +11,10 @@ import com.AMRCapstone.AMRCapstone.access.RobotAccess;
 public class AmrCapstoneApplication {
 
 	public static void main(String[] args) {
-		RobotAccess.initialize();
 		QRAccess.initialize();
 		QR_Queue.initialize();
+		RobotAccess.initialize();
+
 		SpringApplication.run(AmrCapstoneApplication.class, args);
 	}
 

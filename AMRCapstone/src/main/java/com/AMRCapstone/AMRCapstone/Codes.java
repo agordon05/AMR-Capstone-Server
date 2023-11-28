@@ -11,6 +11,7 @@ public class Codes {
 
     // Message Codes
     public static final String NotConnectedMessage = "Not Connected";
+    public static final String connectedMessage = "Connected";
     public static final String HeadingMesssage = "Heading to QR code";
     public static final String ScanningMessage = "Scanning QR code";
     public static final String FoundQRMessage = "Found QR code";

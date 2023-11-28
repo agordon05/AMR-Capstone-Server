@@ -136,7 +136,8 @@ public class RobotService {
                 temp.getMessage().equals(Codes.HeadingMesssage) ||
                 temp.getMessage().equals(Codes.NotConnectedMessage) ||
                 temp.getMessage().equals(Codes.ScanningMessage) ||
-                temp.getMessage().equals(Codes.UserControl)) {
+                temp.getMessage().equals(Codes.UserControl) ||
+                temp.getMessage().equals(Codes.connectedMessage)) {
             robot.setMessage(temp.getMessage());
         }
         if (temp.getMessage().equals(Codes.LostMessage)) {
@@ -154,7 +155,8 @@ public class RobotService {
         robot.setRotation(temp.getRotation());
 
         robot.setQrScan(temp.getQrScan());
-        robot.addtoLoggerList(temp.getLoggerList());
+        robot.setLoggerList(temp.getLoggerList());
+        System.out.println(temp.getImage());
         robot.setImage(temp.getImage());
     }
 

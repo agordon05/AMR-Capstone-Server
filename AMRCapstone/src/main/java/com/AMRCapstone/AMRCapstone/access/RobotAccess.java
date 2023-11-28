@@ -14,7 +14,10 @@ public class RobotAccess {
 
     private static Robot loadRobot() {
         // TEMPORARY
-        robot = new Robot(1, "Inactive", "Connecting", 0, 0, 0, 0, 0, null, new ArrayList<String>(), null);
+        float x_dest = QR_Queue.getCurrentQR().getX_pos();
+        float y_dest = QR_Queue.getCurrentQR().getY_pos();
+
+        robot = new Robot(1, "Inactive", "Connecting", 1, 1, 0, x_dest, y_dest, null, new ArrayList<String>(), null);
         robot.addtoLoggerList("Waiting for robot to connect");
         // robot.setUserSignal("Forward");
         return robot;
