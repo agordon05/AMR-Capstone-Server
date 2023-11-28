@@ -42,15 +42,17 @@ public class RobotServiceTest {
         QR temp9 = new QR(Codes.QRActive, "test9", 3, 3);
 
         void initialize() {
-                QR_Queue.initialize();
                 QRAccess.initialize();
-                RobotAccess.initialize();
                 QRAccess.addQR(temp);
                 QRAccess.addQR(temp2);
                 QRAccess.addQR(temp3);
                 QRAccess.addQR(temp4);
                 QRAccess.addQR(temp5);
                 QRAccess.addQR(temp6);
+
+                QR_Queue.initialize();
+                RobotAccess.initialize();
+
                 QR_Queue.QueueUp();
         }
 

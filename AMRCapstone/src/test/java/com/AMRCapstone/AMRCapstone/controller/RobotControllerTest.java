@@ -35,6 +35,8 @@ public class RobotControllerTest {
      * QRAccess.saveQRCodes(); should be commented out before testing in
      * the QR.java file, (method - setStatus()),
      * and saveQRCodes(); in the QRAccess.java file, (method - addQR(QR qr))---
+     * loadQRCodes(); should be commented out in QRAccess.java file (method -
+     * initialize())
      * 
      */
 
@@ -69,20 +71,21 @@ public class RobotControllerTest {
     QR temp9 = new QR(Codes.QRActive, "test9", 3, 3);
 
     void initialize() {
-        QR_Queue.initialize();
         QRAccess.initialize();
-        RobotAccess.initialize();
         QRAccess.addQR(temp);
         QRAccess.addQR(temp2);
         QRAccess.addQR(temp3);
         QRAccess.addQR(temp4);
         QRAccess.addQR(temp5);
         QRAccess.addQR(temp6);
+        QR_Queue.initialize();
+        RobotAccess.initialize();
+
         QR_Queue.resetQueue(temp9);
     }
 
     private String baseRobotToStringExpected() {
-        Robot temp = new Robot(1, "Inactive", "Connecting", 0, 0, 0, 0, 0, null, new ArrayList<String>(), null);
+        Robot temp = new Robot(1, "Inactive", "Connecting", 1, 1, 0, 2, 1, null, new ArrayList<String>(), null);
         temp.addtoLoggerList("Waiting for robot to connect");
         // temp.setUserSignal("Forward");
         return temp.toString();
@@ -204,7 +207,7 @@ public class RobotControllerTest {
         // to
         expectedResponse = new float[4];
         expectedResponse[0] = 2;
-        expectedResponse[1] = 2;
+        expectedResponse[1] = 3;
         expectedResponse[2] = 3;
         expectedResponse[3] = 3;
 

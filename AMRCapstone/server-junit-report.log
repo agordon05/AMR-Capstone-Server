@@ -1,0 +1,504 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.AMRCapstone:AMRCapstone >---------------------
+[INFO] Building AMRCapstone 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ AMRCapstone ---
+[INFO] Deleting /Users/aaron/Desktop/GitHub Repositories/AMR-Capstone-Server/AMRCapstone/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ AMRCapstone ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ AMRCapstone ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 11 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ AMRCapstone ---
+[INFO] skip non existing resourceDirectory /Users/aaron/Desktop/GitHub Repositories/AMR-Capstone-Server/AMRCapstone/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ AMRCapstone ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ AMRCapstone ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.AMRCapstone.AMRCapstone.controller.RobotControllerTest
+23:41:00.740 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.AMRCapstone.AMRCapstone.controller.RobotControllerTest]: RobotControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:41:00.876 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.AMRCapstone.AMRCapstone.AmrCapstoneApplication for test class com.AMRCapstone.AMRCapstone.controller.RobotControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-27T23:41:01.286-05:00  INFO 20802 --- [           main] c.A.A.controller.RobotControllerTest     : Starting RobotControllerTest using Java 17 with PID 20802 (started by aaron in /Users/aaron/Desktop/GitHub Repositories/AMR-Capstone-Server/AMRCapstone)
+2023-11-27T23:41:01.287-05:00  INFO 20802 --- [           main] c.A.A.controller.RobotControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2023-11-27T23:41:02.650-05:00  INFO 20802 --- [           main] c.A.A.controller.RobotControllerTest     : Started RobotControllerTest in 1.61 seconds (process running for 2.742)
+2023-11-27T23:41:03.648-05:00  INFO 20802 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-27T23:41:03.648-05:00  INFO 20802 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-27T23:41:03.651-05:00  INFO 20802 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+com.AMRCapstone.AMRCapstone.AmrCapstoneApplication$$SpringCGLIB$$0
+com.AMRCapstone.AMRCapstone.controller.QRController
+com.AMRCapstone.AMRCapstone.controller.RobotController
+com.AMRCapstone.AMRCapstone.service.QRService
+com.AMRCapstone.AMRCapstone.service.RobotService
+com.fasterxml.jackson.databind.ObjectMapper
+com.fasterxml.jackson.module.paramnames.ParameterNamesModule
+jakarta.servlet.MultipartConfigElement
+org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator
+org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+org.springframework.beans.factory.support.NullBean
+org.springframework.beans.factory.support.NullBean
+org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$740/0x0000000800f88d80
+org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleProperties
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConverters
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonProperties
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+org.springframework.boot.autoconfigure.ssl.SslProperties
+org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar
+org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+org.springframework.boot.autoconfigure.validation.ValidatorAdapter
+org.springframework.boot.autoconfigure.web.ServerProperties
+org.springframework.boot.autoconfigure.web.WebProperties
+org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer
+org.springframework.boot.autoconfigure.web.format.WebConversionService
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration$LocaleCharsetMappingsCustomizer
+org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping
+org.springframework.boot.autoconfigure.web.servlet.WelcomePageNotAcceptableHandlerMapping
+org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$ErrorPageCustomizer
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$PreserveErrorControllerTargetClassPostProcessor
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$StaticView
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+org.springframework.boot.availability.ApplicationAvailabilityBean
+org.springframework.boot.context.properties.BoundConfigurationProperties
+org.springframework.boot.context.properties.ConfigurationPropertiesBinder
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.jackson.JsonComponentModule
+org.springframework.boot.jackson.JsonMixinModule
+org.springframework.boot.jackson.JsonMixinModuleEntries
+org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+org.springframework.boot.ssl.DefaultSslBundleRegistry
+org.springframework.boot.task.TaskExecutorBuilder
+org.springframework.boot.task.TaskSchedulerBuilder
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor
+org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory
+org.springframework.boot.validation.beanvalidation.FilteredMethodValidationPostProcessor
+org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$745/0x0000000800f90000
+org.springframework.boot.web.client.RestTemplateBuilder
+org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor
+org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor
+org.springframework.boot.web.servlet.error.DefaultErrorAttributes
+org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter
+org.springframework.boot.web.servlet.filter.OrderedFormContentFilter
+org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter
+org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+org.springframework.context.annotation.ConfigurationClassPostProcessor
+org.springframework.context.event.DefaultEventListenerFactory
+org.springframework.context.event.EventListenerMethodProcessor
+org.springframework.context.support.DefaultLifecycleProcessor
+org.springframework.context.support.PropertySourcesPlaceholderConfigurer
+org.springframework.http.converter.StringHttpMessageConverter
+org.springframework.http.converter.json.Jackson2ObjectMapperBuilder
+org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor
+org.springframework.util.AntPathMatcher
+org.springframework.validation.beanvalidation.LocalValidatorFactoryBean
+org.springframework.web.accept.ContentNegotiationManager
+org.springframework.web.method.support.CompositeUriComponentsContributor
+org.springframework.web.multipart.support.StandardServletMultipartResolver
+org.springframework.web.servlet.DispatcherServlet
+org.springframework.web.servlet.function.support.HandlerFunctionAdapter
+org.springframework.web.servlet.function.support.RouterFunctionMapping
+org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping
+org.springframework.web.servlet.handler.HandlerExceptionResolverComposite
+org.springframework.web.servlet.handler.HandlerMappingIntrospector
+org.springframework.web.servlet.handler.SimpleUrlHandlerMapping
+org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver
+org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter
+org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+org.springframework.web.servlet.resource.ResourceUrlProvider
+org.springframework.web.servlet.support.SessionFlashMapManager
+org.springframework.web.servlet.theme.FixedThemeResolver
+org.springframework.web.servlet.view.BeanNameViewResolver
+org.springframework.web.servlet.view.ContentNegotiatingViewResolver
+org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator
+org.springframework.web.servlet.view.InternalResourceViewResolver
+org.springframework.web.servlet.view.ViewResolverComposite
+org.springframework.web.util.UrlPathHelper
+org.springframework.web.util.pattern.PathPatternParser
+2023-11-27T23:41:03.801-05:00  INFO 20802 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-27T23:41:03.802-05:00  INFO 20802 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-27T23:41:03.802-05:00  INFO 20802 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+com.AMRCapstone.AMRCapstone.AmrCapstoneApplication$$SpringCGLIB$$0
+com.AMRCapstone.AMRCapstone.controller.QRController
+com.AMRCapstone.AMRCapstone.controller.RobotController
+com.AMRCapstone.AMRCapstone.service.QRService
+com.AMRCapstone.AMRCapstone.service.RobotService
+com.fasterxml.jackson.databind.ObjectMapper
+com.fasterxml.jackson.module.paramnames.ParameterNamesModule
+jakarta.servlet.MultipartConfigElement
+org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator
+org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+org.springframework.beans.factory.support.NullBean
+org.springframework.beans.factory.support.NullBean
+org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$740/0x0000000800f88d80
+org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleProperties
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConverters
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonProperties
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+org.springframework.boot.autoconfigure.ssl.SslProperties
+org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar
+org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+org.springframework.boot.autoconfigure.validation.ValidatorAdapter
+org.springframework.boot.autoconfigure.web.ServerProperties
+org.springframework.boot.autoconfigure.web.WebProperties
+org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer
+org.springframework.boot.autoconfigure.web.format.WebConversionService
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration$LocaleCharsetMappingsCustomizer
+org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping
+org.springframework.boot.autoconfigure.web.servlet.WelcomePageNotAcceptableHandlerMapping
+org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$ErrorPageCustomizer
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$PreserveErrorControllerTargetClassPostProcessor
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$StaticView
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+org.springframework.boot.availability.ApplicationAvailabilityBean
+org.springframework.boot.context.properties.BoundConfigurationProperties
+org.springframework.boot.context.properties.ConfigurationPropertiesBinder
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.jackson.JsonComponentModule
+org.springframework.boot.jackson.JsonMixinModule
+org.springframework.boot.jackson.JsonMixinModuleEntries
+org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+org.springframework.boot.ssl.DefaultSslBundleRegistry
+org.springframework.boot.task.TaskExecutorBuilder
+org.springframework.boot.task.TaskSchedulerBuilder
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor
+org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory
+org.springframework.boot.validation.beanvalidation.FilteredMethodValidationPostProcessor
+org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$745/0x0000000800f90000
+org.springframework.boot.web.client.RestTemplateBuilder
+org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor
+org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor
+org.springframework.boot.web.servlet.error.DefaultErrorAttributes
+org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter
+org.springframework.boot.web.servlet.filter.OrderedFormContentFilter
+org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter
+org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+org.springframework.context.annotation.ConfigurationClassPostProcessor
+org.springframework.context.event.DefaultEventListenerFactory
+org.springframework.context.event.EventListenerMethodProcessor
+org.springframework.context.support.DefaultLifecycleProcessor
+org.springframework.context.support.PropertySourcesPlaceholderConfigurer
+org.springframework.http.converter.StringHttpMessageConverter
+org.springframework.http.converter.json.Jackson2ObjectMapperBuilder
+org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor
+org.springframework.util.AntPathMatcher
+org.springframework.validation.beanvalidation.LocalValidatorFactoryBean
+org.springframework.web.accept.ContentNegotiationManager
+org.springframework.web.method.support.CompositeUriComponentsContributor
+org.springframework.web.multipart.support.StandardServletMultipartResolver
+org.springframework.web.servlet.DispatcherServlet
+org.springframework.web.servlet.function.support.HandlerFunctionAdapter
+org.springframework.web.servlet.function.support.RouterFunctionMapping
+org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping
+org.springframework.web.servlet.handler.HandlerExceptionResolverComposite
+org.springframework.web.servlet.handler.HandlerMappingIntrospector
+org.springframework.web.servlet.handler.SimpleUrlHandlerMapping
+org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver
+org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter
+org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+org.springframework.web.servlet.resource.ResourceUrlProvider
+org.springframework.web.servlet.support.SessionFlashMapManager
+org.springframework.web.servlet.theme.FixedThemeResolver
+org.springframework.web.servlet.view.BeanNameViewResolver
+org.springframework.web.servlet.view.ContentNegotiatingViewResolver
+org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator
+org.springframework.web.servlet.view.InternalResourceViewResolver
+org.springframework.web.servlet.view.ViewResolverComposite
+org.springframework.web.util.UrlPathHelper
+org.springframework.web.util.pattern.PathPatternParser
+null
+null
+2023-11-27T23:41:03.900-05:00  INFO 20802 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-27T23:41:03.900-05:00  INFO 20802 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-27T23:41:03.900-05:00  INFO 20802 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+com.AMRCapstone.AMRCapstone.AmrCapstoneApplication$$SpringCGLIB$$0
+com.AMRCapstone.AMRCapstone.controller.QRController
+com.AMRCapstone.AMRCapstone.controller.RobotController
+com.AMRCapstone.AMRCapstone.service.QRService
+com.AMRCapstone.AMRCapstone.service.RobotService
+com.fasterxml.jackson.databind.ObjectMapper
+com.fasterxml.jackson.module.paramnames.ParameterNamesModule
+jakarta.servlet.MultipartConfigElement
+org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator
+org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+org.springframework.beans.factory.support.NullBean
+org.springframework.beans.factory.support.NullBean
+org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$740/0x0000000800f88d80
+org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleProperties
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConverters
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonProperties
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+org.springframework.boot.autoconfigure.ssl.SslProperties
+org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar
+org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+org.springframework.boot.autoconfigure.validation.ValidatorAdapter
+org.springframework.boot.autoconfigure.web.ServerProperties
+org.springframework.boot.autoconfigure.web.WebProperties
+org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer
+org.springframework.boot.autoconfigure.web.format.WebConversionService
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration$LocaleCharsetMappingsCustomizer
+org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping
+org.springframework.boot.autoconfigure.web.servlet.WelcomePageNotAcceptableHandlerMapping
+org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$ErrorPageCustomizer
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$PreserveErrorControllerTargetClassPostProcessor
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$StaticView
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+org.springframework.boot.availability.ApplicationAvailabilityBean
+org.springframework.boot.context.properties.BoundConfigurationProperties
+org.springframework.boot.context.properties.ConfigurationPropertiesBinder
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.jackson.JsonComponentModule
+org.springframework.boot.jackson.JsonMixinModule
+org.springframework.boot.jackson.JsonMixinModuleEntries
+org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+org.springframework.boot.ssl.DefaultSslBundleRegistry
+org.springframework.boot.task.TaskExecutorBuilder
+org.springframework.boot.task.TaskSchedulerBuilder
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor
+org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory
+org.springframework.boot.validation.beanvalidation.FilteredMethodValidationPostProcessor
+org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$745/0x0000000800f90000
+org.springframework.boot.web.client.RestTemplateBuilder
+org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor
+org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor
+org.springframework.boot.web.servlet.error.DefaultErrorAttributes
+org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter
+org.springframework.boot.web.servlet.filter.OrderedFormContentFilter
+org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter
+org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+org.springframework.context.annotation.ConfigurationClassPostProcessor
+org.springframework.context.event.DefaultEventListenerFactory
+org.springframework.context.event.EventListenerMethodProcessor
+org.springframework.context.support.DefaultLifecycleProcessor
+org.springframework.context.support.PropertySourcesPlaceholderConfigurer
+org.springframework.http.converter.StringHttpMessageConverter
+org.springframework.http.converter.json.Jackson2ObjectMapperBuilder
+org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor
+org.springframework.util.AntPathMatcher
+org.springframework.validation.beanvalidation.LocalValidatorFactoryBean
+org.springframework.web.accept.ContentNegotiationManager
+org.springframework.web.method.support.CompositeUriComponentsContributor
+org.springframework.web.multipart.support.StandardServletMultipartResolver
+org.springframework.web.servlet.DispatcherServlet
+org.springframework.web.servlet.function.support.HandlerFunctionAdapter
+org.springframework.web.servlet.function.support.RouterFunctionMapping
+org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping
+org.springframework.web.servlet.handler.HandlerExceptionResolverComposite
+org.springframework.web.servlet.handler.HandlerMappingIntrospector
+org.springframework.web.servlet.handler.SimpleUrlHandlerMapping
+org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver
+org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter
+org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+org.springframework.web.servlet.resource.ResourceUrlProvider
+org.springframework.web.servlet.support.SessionFlashMapManager
+org.springframework.web.servlet.theme.FixedThemeResolver
+org.springframework.web.servlet.view.BeanNameViewResolver
+org.springframework.web.servlet.view.ContentNegotiatingViewResolver
+org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator
+org.springframework.web.servlet.view.InternalResourceViewResolver
+org.springframework.web.servlet.view.ViewResolverComposite
+org.springframework.web.util.UrlPathHelper
+org.springframework.web.util.pattern.PathPatternParser
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.452 s - in com.AMRCapstone.AMRCapstone.controller.RobotControllerTest
+[INFO] Running com.AMRCapstone.AMRCapstone.AmrCapstoneApplicationTests
+2023-11-27T23:41:03.919-05:00  INFO 20802 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.AMRCapstone.AMRCapstone.AmrCapstoneApplicationTests]: AmrCapstoneApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-27T23:41:03.933-05:00  INFO 20802 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.AMRCapstone.AMRCapstone.AmrCapstoneApplication for test class com.AMRCapstone.AMRCapstone.AmrCapstoneApplicationTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.AMRCapstone.AMRCapstone.AmrCapstoneApplicationTests
+[INFO] Running com.AMRCapstone.AMRCapstone.service.RobotServiceTest
+null
+null
+null
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.AMRCapstone.AMRCapstone.service.RobotServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.207 s
+[INFO] Finished at: 2023-11-27T23:41:04-05:00
+[INFO] ------------------------------------------------------------------------
