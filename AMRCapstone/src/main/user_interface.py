@@ -38,6 +38,7 @@ def update_qr_and_destination():
         dest_x_label.config(text=f"X: {robot_info.get('x_destination', 0)}")
         dest_y_label.config(text=f"Y: {robot_info.get('y_destination', 0)}")
     root.after(1000, update_qr_and_destination)
+    
 def update_robot_actions():
     robot_info = fetch_robot_info()
     if robot_info:
@@ -54,18 +55,6 @@ def update_log():
         for entry in log_info:
             log_display.insert(tk.END, entry + "\n")
     root.after(1000, update_log)
-#def update_image():
-   # robot_info = fetch_robot_info()
-   # if robot_info:
-    #    image_data = robot_info['image']
-    #    image = Image.open(io.BytesIO(image_data))
-    #    photo = ImageTk.PhotoImage(image)
-
-    #    image_label.config(image=photo)
-    #    image_label.image = photo
-   # else:
-    #    image_label.config(image='')
-    #root.after(1000, update_image)
 
 #b64 decoding
 def update_image():
@@ -126,13 +115,11 @@ dest_x_label.pack()
 dest_y_label = tk.Label(upper_frame_left, text="Y: 0")
 dest_y_label.pack()
 
-# Create an empty space (placeholder) for the QR code
-#empty_qr_label = tk.Label(qr_frame, text="QR Code Placeholder", padx=50, pady=50, relief="ridge")
-#empty_qr_label.pack()
-#real qr lablel
+# Create label for qr info
 qr_label = tk.Label(upper_frame_left, text="QR Code Info:")
 qr_label.pack()
 
+# header for image window
 title_label = tk.Label(upper_frame, text="Robot Camera View", bg='darkgray')
 title_label.pack(fill="x")
 image_label = tk.Label(upper_frame)  # Background color for debugging
