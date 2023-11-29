@@ -1,0 +1,83 @@
+commit 2cefb31333382a2c4fde5774031ed88708b0ecf8
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Tue Nov 28 20:51:51 2023 -0500
+
+    updated qr data
+
+commit daa797228ed076e42944944fdd7172c191378439
+Author: Matthew Gordon <mg18667@georgiasouthern.edu>
+Date:   Tue Nov 28 13:20:27 2023 -0500
+
+    Edited UI Comments
+
+commit 8e19ea449fb29b78c6653edd22ece0687750c1ae
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Tue Nov 28 10:40:01 2023 -0500
+
+    updated to pull test logs
+
+commit 915d2b7889b112b055ed1d0d1d762b96b2e4bc8d
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Mon Nov 27 20:46:31 2023 -0500
+
+    fixed bugs
+
+commit bee41d27002000a92f7f6325647ba11902d38316
+Author: Matthew Gordon <88910633+mgordon00@users.noreply.github.com>
+Date:   Mon Nov 27 19:48:41 2023 -0500
+
+    Create README.md
+
+commit 12a9284c0c2eda9742d303a19bd3e68b6c0a686b
+Author: Matthew Gordon <mg18667@georgiasouthern.edu>
+Date:   Mon Nov 27 18:28:23 2023 -0500
+
+    UI name change
+
+commit ee818451c29aadfbdcb559203551b881512f34f9
+Author: Matthew Gordon <mg18667@georgiasouthern.edu>
+Date:   Mon Nov 27 18:12:36 2023 -0500
+
+    changes to UI to handle images
+
+commit 77c342c219d46ee345b8db675afbecc47d821d3c
+Author: Matthew Gordon <mg18667@georgiasouthern.edu>
+Date:   Sun Nov 26 23:08:42 2023 -0500
+
+    User Interface added
+
+commit 89dd46fb718f40c3e764a6c2b9f9b5f224541824
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Thu Nov 16 09:50:12 2023 -0500
+
+    Updated QR Queue
+
+commit 9ac1e36072f99f940f56dc6d972ad83f3ae1035d
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Sun Nov 12 15:15:42 2023 -0500
+
+    Update Robot.java
+    
+    converted Byte to byte for image
+
+commit 33274a62dfbc8ce1aaa3d50afd7ffad76721f12d
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Sun Nov 12 14:28:30 2023 -0500
+
+    Update Robot.java
+    
+    Changed addtoLoggerList to only add new logs
+
+commit 0c7320384a9bf98f3705f6d46506e9ff8079dae4
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Sun Nov 12 13:25:45 2023 -0500
+
+    forgot to re-add addToQueue method to initialize
+
+commit 732be92a2f2d8f4bb097dbf514c4132b669d9dd4
+Author: agordon05 <100168379+agordon05@users.noreply.github.com>
+Date:   Thu Nov 9 18:45:01 2023 -0500
+
+    Moved from AMR-Capstone Repository
+    
+    Fixed bug as well
