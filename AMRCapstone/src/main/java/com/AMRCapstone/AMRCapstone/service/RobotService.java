@@ -33,7 +33,7 @@ public class RobotService {
             robot = RobotAccess.getRobot();
         }
         // validation
-        validateAndUpdateRobot(robot, temp);
+        robot = validateAndUpdateRobot(robot, temp);
         // update
         HttpStatus status = getQRStatus(robot);
         updateQRQueue(status, robot);
@@ -82,27 +82,33 @@ public class RobotService {
 
     /* ---NOT AN API CALL--- */
     private HttpStatus getQRStatus(Robot robot) {
-
+        System.out.println("inside get QR Status, robot scan: " + robot.getQrScan());
         if (robot.getQrScan() == null) {
             return HttpStatus.OK;
         }
         // test QR Scan
         else {
+            System.out.println(robot.getQrScan());
             // check QRQueue
             if (QR_Queue.getCurrentQR().getCode().equals(robot.getQrScan())) {
+                System.out.println("Qr code is the right one");
                 return HttpStatus.CONTINUE;
 
             } else if (QRAccess.getQrByQRCode(robot.getQrScan()) != null) {
+                System.out.println("Qr code is the wrong one one");
                 // reset Queue
                 QR resetQR = QRAccess.getQrByQRCode(robot.getQrScan());
 
                 if (resetQR == null) {
+                    System.out.println("conflicted");
                     return HttpStatus.CONFLICT;
                 } else {
+                    System.out.println("Accepted");
                     return HttpStatus.ACCEPTED;
                 }
 
             } else {
+                System.out.println("Not_found");
                 return HttpStatus.NOT_FOUND;
             }
         }
@@ -125,7 +131,7 @@ public class RobotService {
 
     }
 
-    private void validateAndUpdateRobot(Robot robot, Robot temp) {
+    private Robot validateAndUpdateRobot(Robot robot, Robot temp) {
         // check status
         if (temp.getStatus().equals(Codes.statusActive) || temp.getStatus().equals(Codes.statusInactive)) {
             robot.setStatus(temp.getStatus());
@@ -153,11 +159,13 @@ public class RobotService {
         robot.setX_pos(temp.getX_pos());
         robot.setY_pos(temp.getY_pos());
         robot.setRotation(temp.getRotation());
+        if (!temp.getQrScan().equals(""))
+            System.out.println(temp.getQrScan());
 
         robot.setQrScan(temp.getQrScan());
         robot.setLoggerList(temp.getLoggerList());
-        System.out.println(temp.getImage());
         robot.setImage(temp.getImage());
+        return robot;
     }
 
     public String getUserControl() {
